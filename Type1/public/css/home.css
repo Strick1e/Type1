@@ -1,0 +1,51 @@
+body{
+	background-color:black;
+	color:#f282f9;
+	font-family: citizen,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.line-1{
+    position: relative;
+    top: 35%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-100%);
+		margin: auto;
+		width: 50%;
+}
+
+
+
+.column {
+  float: left;
+  padding: 20px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.p:before {
+  content: "]"
+}
+
+.b:before {
+  content: "["
+}

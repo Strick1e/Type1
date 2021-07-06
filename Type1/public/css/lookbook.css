@@ -1,0 +1,75 @@
+.img:hover{
+  color: #424242;
+-webkit-transition: all .3s ease-in;
+-moz-transition: all .3s ease-in;
+-ms-transition: all .3s ease-in;
+-o-transition: all .3s ease-in;
+transition: all .3s ease-in;
+opacity: 1;
+transform: scale(1.15);
+-ms-transform: scale(1.15); /* IE 9 */
+-webkit-transform: scale(1.15); /* Safari and Chrome */
+
+}
+
+.capsules{
+  text-align:center;
+  padding-bottom:10px;
+}
+
+#hidden {
+  display: none;
+  height: auto
+  text-align:center;
+}
+
+:checked + #hidden {
+  display: block;
+}
+
+
+#myImg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+#myImg:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.image-list-small{
+        margin:0 auto;
+        text-align:center;
+        max-width:600px;
+        padding:0;
+}
+
+.image-list-small li{
+        display:inline-block;
+        width:181px;
+}
+
+.image-list-small li > a{
+        display:block;
+        text-decoration:none;
+        background-size:cover;
+        background-repeat:no-repeat;
+        height:137px;
+        margin:0px;
+        padding:0px;
+        outline:3px solid #d0d0d0;
+        box-shadow: 0 2px 1px #DDD;
+}
+
+.image-list-small .details{
+        margin-top:13px;
+}
+
+.image-list-small h3{
+  padding-bottom:17.5px;
+
+}

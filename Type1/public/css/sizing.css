@@ -1,0 +1,69 @@
+body {
+  padding: 1em;
+}
+h4{
+  margin:0;
+}
+h5 {
+  font-weight: bold;
+}
+#accordion {
+  h3 {
+    margin-top: 12px;
+  }
+  .tab-content {
+    margin-top: 12px;
+  }
+  .nav-tabs a {
+    font-size: 12px;
+    padding: 9px!important;
+  }
+}
+#accordion .panel-heading {
+  padding: 0;
+  a {
+    display: block;
+    padding: 12px;
+  }
+  .nav>li>a {
+    padding: 10px 7px;
+  }
+
+}
+td {
+  padding: 0.8em;
+}
+table tr:first-child td {
+  background: #333;
+  color: white;
+}
+caption {
+  color: white;
+  background: #5c5c5c;
+  padding: 6px 12px;
+    border-top: none;
+}
+
+/* Fix chopped in half elements caused by -webkit-overflow-scrolling-touch bug */
+td {
+  -webkit-transform: translate3d(0, 0, 0);
+  background: white;
+  border: 1px solid #ddd;
+}
+
+
+
+.capsules{
+  text-align:center;
+  padding-bottom: 10px;
+}
+
+#hidden {
+  display: none;
+  height: auto
+  text-align:center;
+}
+
+:checked + #hidden {
+  display: block;
+}

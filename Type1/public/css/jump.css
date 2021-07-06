@@ -1,0 +1,17 @@
+.wrapper {
+  width:100% !important;
+  height:100% !important;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.wrapper video {
+  object-fit: cover;
+  width:100% !important;
+}
+
+body {
+    background: #000000;
+}
