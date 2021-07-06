@@ -5,5 +5,5 @@ This is a website created for a friend/client who is starting a fashion brand.  
 *THIS SITE IS STILL IN DEVELOPMENT*
 
 To access the site, please visit the public/html/title.html to get started.
-The database is run locally using phpmyadmin so will not work outwith the main PC without first creating a database called type1. on Phpmyadmin, using just the standard root login, creating a table called lookbook and using the DB file provided to insert the field.
+The database is run locally using phpmyadmin so will not work outwith the main PC without first creating a database called type1. on Phpmyadmin, using just the standard root login, creating a table called lookbook and using the DB file provided to insert the data.
 There is only one line in as of now due to just running tests.
